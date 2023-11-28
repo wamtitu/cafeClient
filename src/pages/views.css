@@ -1,0 +1,32 @@
+.tableCardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.tableCards {
+  box-sizing: border-box;
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  text-align: center;
+}
+
+.card img {
+  max-height: 75%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.card p {
+  margin: 5px 0;
+  font-size: 16px;
+  /* Add other styles as needed */
+}
