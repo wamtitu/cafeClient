@@ -11,7 +11,7 @@ import Order from './pages/Order'
 import Booking from './pages/Booking'
 import Menu from './pages/Menu'
 import AdminPage from './Admin/AdminPage'
-import './app.css'
+import './App.css'
 import { useContext } from "react";
 import  { Context } from './context/Context'
 import Tables from './Admin/Tables'
