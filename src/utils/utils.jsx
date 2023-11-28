@@ -1,1 +1,1 @@
-export const ApiDomain = 'http://localhost:5000';
+export const ApiDomain = 'https://koffeeshop.azurewebsites.net';
