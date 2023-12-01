@@ -62,7 +62,7 @@ const Booking = () => {
 
     })
     .catch(({ response }) => {
-        alert(response.data.error)
+        alert(response.data.message)
     });
       
     
